@@ -9,7 +9,20 @@ body{
   width: 100%;
   height: 100vh;
 }
-
+#gridAreas{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "nav"
+  "cuerpo"
+  "domicilios"
+  "footer"
+  ;
+  grid-template-columns: 100%;
+}
+.header{
+  grid-area:header;
+}
 .header__logos {
   object-fit: contain;
   display: flex;
@@ -37,10 +50,11 @@ body{
 }
 
 .navegadorWeb {
-  height: 16%;
+  height: 100%;
   background-color: brown;
   text-align: center;
   position: sticky;
+  grid-area:nav;
 }
 
 .navegadorWeb ul {
@@ -64,6 +78,7 @@ body{
   flex-direction:column-reverse;
   justify-content: space-evenly;
   background-color: black;
+  grid-area:cuerpo;
 }
 .indexCuerpo img {
   margin: 18px;
@@ -83,6 +98,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-area:domicilios;
 }
 
 .divDomicilios img{
@@ -101,11 +117,14 @@ body{
   font-size:18px;
   
 }
+
+/* FOOTER SMARTPHONE*/
 footer{
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: brown;
+  grid-area:footer
 }
 
 footer h3{
@@ -114,6 +133,22 @@ footer h3{
 }
 /* tablets */
 @media(min-width: 480px) and (max-width:1023px){
+  .header{
+    grid-area: header;
+  }
+
+  #gridAreas{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "cuerpo"
+    "domicilios"
+    "footer"
+    ;
+    grid-template-columns: 100%;
+  }
+
   .header__logos {
     object-fit: contain;
     display: flex;
@@ -145,6 +180,7 @@ footer h3{
     background-color: brown;
     text-align: center;
     position: sticky;
+    grid-area: nav;
   }
   
   .navegadorWeb ul {
@@ -166,6 +202,7 @@ footer h3{
     flex-direction:column-reverse;
     justify-content: space-evenly;
     background-color: black;
+    grid-area:nav;
   }
   .indexCuerpo img {
     margin: 18px;
@@ -186,6 +223,7 @@ footer h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-area: domicilios;
   }
   
   .divDomicilios img{
@@ -208,6 +246,7 @@ footer h3{
     flex-direction: column;
     text-align: center;
     background-color: brown;
+    grid-area: footer;
   }
   
   footer h3{
