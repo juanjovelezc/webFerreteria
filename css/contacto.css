@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__logos {
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header_derecha {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  
+  .logo_ferreteria {
+    width: 6.25rem;
+  }
+  
+  .logo_ig {
+    
+    width: 1.87rem;
+    margin-right: 10px;
+  }
+  .logo_fb {
+    
+    width: 1.87rem;
+  }
+  
+  .navegadorWeb {
+    height: 60px;
+    background-color: brown;
+    text-align: center;
+    position: sticky;
+  }
+  
+  .navegadorWeb ul {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .navegadorWeb ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+  }
+
+    /* BODY */
+    .contacto{
+        display: flex;
+        justify-content: center;
+    }
+  .formulario {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+  }
+
+  .formulario form{
+      border: solid 0.5px grey;
+      padding: 20px;
+
+  }
+
+  .formulario form hr {
+      margin-top:10px;
+      color:grey;
+  }
+
+
+    /* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: brown;
+      }
+      
+      footer h3{
+        margin: 3px;
+        COLOR:white;
+      }
