@@ -55,6 +55,8 @@ body{
   text-decoration: none;
   font-size: 18px;
   padding: 18px;
+  
+  
 }
 /* CUERPO SMARTPHONE*/
 .indexCuerpo{
@@ -139,7 +141,7 @@ footer h3{
   }
   
   .navegadorWeb {
-    height: 6%;
+    height: 10%;
     background-color: brown;
     text-align: center;
     position: sticky;
@@ -221,6 +223,24 @@ footer h3{
     margin: 0;
     padding: 0;
   }
+  .header{
+    grid-area:header;
+  }
+ 
+ 
+
+  #gridAreas{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "cuerpo"
+    "domicilios"
+    "footer"
+    ;
+    grid-template-columns: 100%;
+  }
+
   .header__logos {
     object-fit: contain;
     display: flex;
@@ -248,10 +268,11 @@ footer h3{
   }
   
   .navegadorWeb {
-    height: 7%;
+    height: 100%;
     background-color: brown;
     text-align: center;
     position: sticky;
+    grid-area:nav;
   }
   
   .navegadorWeb ul {
@@ -274,6 +295,7 @@ footer h3{
   flex-direction:row-reverse;
   justify-content: space-evenly;
   background-color: black;
+  grid-area: cuerpo;
 }
 .indexCuerpo img {
   margin: 18px;
@@ -294,6 +316,7 @@ footer h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-area: domicilios;
 }
 
 .divDomicilios img{
@@ -316,6 +339,7 @@ footer{
   flex-direction: column;
   text-align: center;
   background-color: brown;
+  grid-area:footer;
 }
 
 footer h3{
