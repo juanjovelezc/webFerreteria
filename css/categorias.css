@@ -122,3 +122,14 @@ footer{
     margin: 3px;
     COLOR:white
   }
+
+  /* TABLETS */
+  @media(min-width: 480px) and (max-width:1023px){
+
+  }
+
+
+  /* ESCRITORIO */
+  @media(min-width:1024px){
+    
+  }
