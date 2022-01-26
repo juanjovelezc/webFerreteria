@@ -129,7 +129,7 @@ footer{
 
 footer h3{
   margin: 3px;
-  COLOR:white
+  color:white;
 }
 /* tablets */
 @media(min-width: 480px) and (max-width:1023px){
@@ -252,10 +252,10 @@ footer h3{
   footer h3{
     margin: 3px;
     font-size: 25px;
-    COLOR:white
+    color:white;
   }
 }
-/* destokp */
+/* ESCRITORIO */
 
 @media(min-width:1024px){
   * {
@@ -383,6 +383,6 @@ footer{
 
 footer h3{
   margin: 3px;
-  COLOR:white
+  color:white;
 }
 }

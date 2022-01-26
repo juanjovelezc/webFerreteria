@@ -62,8 +62,7 @@
 .navegadorWeb ul {
   list-style: none;
   padding: 20px;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
 }
 .navegadorWeb ul li a {
   color: white;
@@ -149,7 +148,7 @@ footer{
   
   footer h3{
     margin: 3px;
-    COLOR:white
+    color:white;
   }
 
   /* TABLETS */
@@ -305,7 +304,7 @@ h4{
   
   footer h3{
     margin: 3px;
-    COLOR:white
+    color:white;
   }
 
   }
@@ -459,6 +458,6 @@ h4{
   
   footer h3{
     margin: 3px;
-    COLOR:white
+    color:white;
   }
   }
