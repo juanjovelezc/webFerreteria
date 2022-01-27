@@ -79,7 +79,8 @@
     margin: 10px;
     border: solid 0px white;
     border-radius: 6px;
-    background-color: #EB1B23;
+    background: rgb(121,9,11);
+    background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
     width: auto;
    grid-area: aviso;
 }
@@ -109,16 +110,20 @@
     transition: 0.3s;
     margin: 10px;
     background-color: whitesmoke;
+    overflow: hidden;
+    
 }
 
 .categorias:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
 }
 
 .categorias img{
   width: 15.6rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .categorias h4 a {
@@ -235,7 +240,8 @@ footer{
   margin: 10px;
   border: solid 0px white;
   border-radius: 6px;
-  background-color: #EB1B23;
+  background: rgb(121,9,11);
+  background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
   width: auto;
   grid-area:aviso;
  
@@ -376,6 +382,11 @@ h4{
       display: flex;
       justify-content: center;
     }
+    .navegadorWeb ul li:hover{
+      color:red;
+      background-color: rosybrown;
+      height: 100%;
+    }
     .navegadorWeb ul li a {
       color: white;
       font-weight: bold;
@@ -390,8 +401,8 @@ h4{
   margin: 10px;
   border: solid 0px white;
   border-radius: 6px;
-  background-color: #EB1B23;
-  width: auto;
+  background: rgb(121,9,11);
+  background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
   grid-area:aviso;
  
 }
@@ -424,6 +435,7 @@ h4{
 
 .categorias:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(20px);
 }
 
 .categorias img{

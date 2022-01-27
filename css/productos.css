@@ -277,6 +277,11 @@ grid-area:productos;
       justify-content: center;
     
     }
+    .navegadorWeb ul li:hover{
+      color:red;
+      background-color: rosybrown;
+      height: 100%;
+    }
     .navegadorWeb ul li a {
       color: white;
       font-weight: bold;
@@ -303,6 +308,13 @@ grid-area:productos;
         background-color: grey;
         color:white;
         
+    }
+    .producto h3:hover{
+      transform: translateY(-120px);
+      border: solid 0px white;
+      background-color: black;
+      color:indianred;
+      padding:10px;
     }
 
     /* FOOTER ESCRITORIO */

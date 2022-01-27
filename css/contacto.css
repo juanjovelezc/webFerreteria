@@ -160,6 +160,11 @@
           display: flex;
           justify-content: center;
         }
+        .navegadorWeb ul li:hover{
+          color:red;
+          background-color: rosybrown;
+          height: 100%;
+        }
         .navegadorWeb ul li a {
           color: white;
           font-weight: bold;

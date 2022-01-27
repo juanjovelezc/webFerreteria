@@ -64,7 +64,8 @@
     display: flex;
     justify-content: center;
     border: solid 0px white;
-    background-color: #EB1B23;
+    background: rgb(121,9,11);
+    background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
     width: auto;
 
 }
@@ -200,7 +201,8 @@
       display: flex;
       justify-content: center;
       border: solid 0px white;
-      background-color: #EB1B23;
+      background: rgb(121,9,11);
+      background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
       width: auto;
       grid-area: titulo;
   
@@ -327,6 +329,11 @@
     display: flex;
     justify-content: center;
   }
+  .navegadorWeb ul li:hover{
+    color:red;
+    background-color: rosybrown;
+    height: 100%;
+  }
   .navegadorWeb ul li a {
     color: white;
     font-weight: bold;
@@ -338,13 +345,15 @@
     display: flex;
     justify-content: center;
     border: solid 0px white;
-    background-color: #EB1B23;
+    background: rgb(121,9,11);
+    background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
     width: auto;
     grid-area: titulo;
 
 }
 .titulo h1{
-    background-color: #901726;
+  background: rgb(121,9,11);
+  background: linear-gradient(90deg, rgba(121,9,11,1) 35%, rgba(255,0,0,1) 100%);
     text-align: center;
     margin: 10px;
     color: white;
