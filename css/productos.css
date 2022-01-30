@@ -13,6 +13,10 @@
     "footer"
     ;
   }
+  #gridRepetitivo{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
   .header{
     grid-area: header;
   }
@@ -66,10 +70,7 @@
   }
   /* CUERPO SMARTPHONE */
 
-  #gridRepetitivo{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-}
+
 .productos{
 grid-area:productos;
 }
